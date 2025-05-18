@@ -14,7 +14,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'Path'
-    jdkDirectory: '/usr/bin/java/java-11-openjdk-amd64'  # Adjust based on your system
+    jdkDirectory: '/usr/lib/jvm/java-11-openjdk-amd64'  # Adjust based on your system
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
